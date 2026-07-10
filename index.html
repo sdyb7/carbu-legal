@@ -3,11 +3,12 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Carbu — Carburant malin</title>
+  <title>Carbu — Le carburant au meilleur prix</title>
+  <meta name="description" content="Carbu compare en temps réel les prix de plus de 10 000 stations-service en France. Trouvez la station la moins chère, gardez un œil sur vos favorites, économisez à chaque plein.">
   <link rel="stylesheet" href="style.css">
   <link rel="icon" type="image/png" href="icon.png">
 </head>
-<body>
+<body class="landing">
   <header>
     <img class="mark" src="icon.png" alt="Carbu">
     <span class="name">Carbu</span>
@@ -17,21 +18,56 @@
       <a href="terms.html">Conditions</a>
     </nav>
   </header>
-  <main>
-    <h1>Carbu — Carburant malin</h1>
-    <p class="updated">Le carburant au meilleur prix, partout en France.</p>
-    <p>Carbu compare en temps réel les prix de plus de 10 000 stations-service françaises
-    (Gazole, SP95, SP98, E10, E85, GPL) à partir des données publiques du gouvernement
-    (prix-carburants.gouv.fr).</p>
-    <div class="card">
-      <p><strong>Documents</strong></p>
-      <ul>
-        <li><a href="privacy.html">Politique de confidentialité</a></li>
-        <li><a href="terms.html">Conditions d'utilisation</a></li>
-        <li><a href="support.html">Assistance et contact</a></li>
-      </ul>
-    </div>
+
+  <main class="landing-main">
+    <section class="hero">
+      <p class="eyebrow">Disponible bientôt sur iPhone</p>
+      <h1>Le carburant au<br>meilleur prix, partout en France</h1>
+      <p class="lead">Carbu compare en temps réel les prix de plus de 10&nbsp;000 stations-service
+        — Gazole, SP95, SP98, E10, E85, GPL — à partir des données officielles du gouvernement.
+        Trouvez la station la moins chère, gardez un œil sur vos favorites, payez moins cher à chaque plein.</p>
+
+      <div class="store-badge" aria-disabled="true" title="Bientôt disponible">
+        <svg viewBox="0 0 24 24" width="26" height="26" fill="currentColor" aria-hidden="true">
+          <path d="M17.05 20.28c-.98.95-2.05.88-3.08.4-1.09-.5-2.08-.52-3.24 0-1.44.63-2.2.44-3.06-.4C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8.93-.19 1.9-.87 3.23-.75 1.6.13 2.8.83 3.55 1.99-3.2 1.92-2.54 6.03.43 7.2-.5 1.28-1.14 2.55-2.29 3.73ZM12.03 7.25c-.15-2.24 1.66-4.09 3.72-4.25.28 2.15-1.94 4.4-3.72 4.25Z"/>
+        </svg>
+        <span>Bientôt disponible sur<br><strong>l'App Store</strong></span>
+      </div>
+    </section>
+
+    <section class="shots" aria-label="Aperçu de l'application">
+      <img src="shots/01-carte.png" alt="Carte des stations avec prix">
+      <img src="shots/03-station.png" alt="Fiche station avec historique et itinéraire" class="raise">
+      <img src="shots/04-comparaison.png" alt="Comparaison du coût du plein entre favoris">
+    </section>
+
+    <section class="features">
+      <div class="feature">
+        <h2>Trouvez la station la moins chère</h2>
+        <p>Carte interactive et liste triée par prix ou distance, prix affichés directement sur chaque station, ruptures de stock signalées en direct.</p>
+      </div>
+      <div class="feature">
+        <h2>Gardez un œil sur vos favorites</h2>
+        <p>Enregistrez vos stations habituelles, comparez leurs prix d'un coup d'œil sur la carte, signalez un prix incorrect en un geste.</p>
+      </div>
+      <div class="feature">
+        <h2>Avec Carbu Pro, économisez encore plus</h2>
+        <p>Widget sur l'écran d'accueil, alertes de baisse de prix, historique 7 jours, calculateur de plein et comparaison entre vos stations favorites. 7 jours d'essai gratuit.</p>
+      </div>
+    </section>
+
+    <section class="cta">
+      <h2>Faites le plein au meilleur prix</h2>
+      <p>Carbu arrive bientôt sur l'App Store.</p>
+      <div class="store-badge store-badge--big" aria-disabled="true" title="Bientôt disponible">
+        <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor" aria-hidden="true">
+          <path d="M17.05 20.28c-.98.95-2.05.88-3.08.4-1.09-.5-2.08-.52-3.24 0-1.44.63-2.2.44-3.06-.4C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8.93-.19 1.9-.87 3.23-.75 1.6.13 2.8.83 3.55 1.99-3.2 1.92-2.54 6.03.43 7.2-.5 1.28-1.14 2.55-2.29 3.73ZM12.03 7.25c-.15-2.24 1.66-4.09 3.72-4.25.28 2.15-1.94 4.4-3.72 4.25Z"/>
+        </svg>
+        <span>Bientôt disponible sur<br><strong>l'App Store</strong></span>
+      </div>
+    </section>
   </main>
+
   <footer>© 2026 Steeve Cayla — Carbu. Prix issus des données publiques prix-carburants.gouv.fr.</footer>
 </body>
 </html>
