@@ -165,3 +165,53 @@ body.landing { padding-bottom: 0; }
   .shots img { width: 140px; }
   .shots img.raise { width: 156px; }
 }
+
+/* ---------- Parrainage (404.html /r/CODE) ---------- */
+.referral-hero { padding-bottom: 48px; }
+.referral-code-box {
+  display: inline-flex;
+  align-items: center;
+  gap: 14px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 14px 20px;
+  margin-bottom: 28px;
+}
+.referral-code {
+  font-size: 26px;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  font-variant-numeric: tabular-nums;
+}
+.referral-copy {
+  font: inherit;
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--bg);
+  background: var(--accent);
+  border: none;
+  border-radius: 8px;
+  padding: 8px 14px;
+  cursor: pointer;
+  transition: opacity 0.15s ease;
+}
+.referral-copy:hover { opacity: 0.85; }
+.store-badges {
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+.referral-android-note { margin-bottom: 32px; }
+.referral-steps {
+  text-align: left;
+  max-width: 420px;
+  margin: 0 auto;
+  padding-left: 22px;
+  color: var(--text-soft);
+  font-size: 15px;
+}
+.referral-steps li { margin: 8px 0; }
+.referral-steps strong { color: var(--text); }
